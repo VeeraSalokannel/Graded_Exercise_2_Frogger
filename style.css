@@ -1,0 +1,59 @@
+h1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+}
+
+h3 {
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.grid {
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    height: 180px;
+    width: 180px;
+    background-image: url("a\ background\ grass.png");
+    background-color: rgb(61, 56, 33);
+}
+
+.grid div {
+    height: 20px;
+    width: 20px;
+}
+
+.ending-block {
+    background-image: url(goal.png);
+    background-color: pink;
+}
+
+.starting-block {
+    background-color: grey;
+}
+
+.c1 {
+    background-image: url(cars.png);
+    background-color: red;
+}
+
+.c2, .c3 {
+    background-color: rgb(109, 106, 106);
+    background-image: url(road.png);
+}
+
+.l1, .l2, .l3 {
+    background-color: rgba(129, 87, 31, 0.774);
+}
+
+.l4, .l5 {
+    background-color: rgb(118, 203, 231);
+    background-image: url(sea.png);
+}
+
+.frog {
+    background-image: url(frog.png);
+    background-color: green;
+}
